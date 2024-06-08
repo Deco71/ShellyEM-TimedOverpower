@@ -4,4 +4,4 @@ WORKDIR /usr/app/src
 COPY main.py ./
 COPY .env ./
 RUN pip3 install python-dotenv requests
-CMD [ "python", "./main.py"]
+CMD [ "python", "-u", "./main.py"]
