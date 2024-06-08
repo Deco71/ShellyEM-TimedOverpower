@@ -13,4 +13,4 @@
 1. Clone the repository
 2. Create and populate the .env file like in the example.env file
 3. Build the docker image with `docker build -t shellyem-timedoverpower .`
-4. Run the docker container with `docker run --env-file .env --name ShellyEM-Overpower -d shellyem-timedoverpower`
+4. Run the docker container with `docker run --name ShellyEM-Overpower -d shellyem-timedoverpower`
